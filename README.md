@@ -14,7 +14,7 @@ After they run the test however, they were really surprised because the test was
 
 3. If you identified what was wrong, design an algorithm that would return FALSE if the same problem is happening in the future and TRUE if everything is good and results can be trusted.
 
-## Data:
+### Data:
 The 2 tables are:
 
 **test_table - general information about the test results**
@@ -45,6 +45,9 @@ test : users are randomly split into test (1) and control (0). Test users see th
 
 Columns:
 user_id : the id of the user. It can be joined to user id in the other table
+
 sex : user sex: Male or Female
+
 age : user age (self-reported)
+
 country : user country based on ip address
